@@ -14,6 +14,8 @@
 		2A295DED1DC77D770012A6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A295DEB1DC77D770012A6BA /* LaunchScreen.storyboard */; };
 		2A295DF81DC77D770012A6BA /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A295DF71DC77D770012A6BA /* CountTests.swift */; };
 		2A295E031DC77D770012A6BA /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A295E021DC77D770012A6BA /* CountUITests.swift */; };
+		2A295E111DC77E730012A6BA /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A295E101DC77E730012A6BA /* images.jpg */; };
+		2A295E131DC7820F0012A6BA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A295E121DC7820F0012A6BA /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2A295DFE1DC77D770012A6BA /* CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A295E021DC77D770012A6BA /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
 		2A295E041DC77D770012A6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A295E101DC77E730012A6BA /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		2A295E121DC7820F0012A6BA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		2A295DE11DC77D760012A6BA /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				2A295E121DC7820F0012A6BA /* icon.png */,
+				2A295E101DC77E730012A6BA /* images.jpg */,
 				2A295DE21DC77D760012A6BA /* AppDelegate.swift */,
 				2A295DE41DC77D760012A6BA /* ViewController.swift */,
 				2A295DE61DC77D770012A6BA /* Main.storyboard */,
@@ -235,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A295E111DC77E730012A6BA /* images.jpg in Resources */,
+				2A295E131DC7820F0012A6BA /* icon.png in Resources */,
 				2A295DED1DC77D770012A6BA /* LaunchScreen.storyboard in Resources */,
 				2A295DEA1DC77D770012A6BA /* Assets.xcassets in Resources */,
 				2A295DE81DC77D770012A6BA /* Main.storyboard in Resources */,
@@ -415,6 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
 				INFOPLIST_FILE = Count/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryoegu.Count;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
 				INFOPLIST_FILE = Count/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryoegu.Count;
 				PRODUCT_NAME = "$(TARGET_NAME)";
